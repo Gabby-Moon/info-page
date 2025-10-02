@@ -1,10 +1,10 @@
 export default function InfoCard(vocalBank) {
   return (
     <div>
-      <h2>${vocalBank.Name}</h2>
+      <h2>${vocalBank.bank.Name}</h2>
       <ul>
-        <li>${vocalBank.Sample}</li>
-        <li>${vocalBank.Released}</li>
+        <li>${vocalBank.bank.Sample}</li>
+        <li>${vocalBank.bank.Released}</li>
       </ul>
     </div>
   )
